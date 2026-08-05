@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- SITE TITLE -->
+	<title>Scanovect</title>
+	<!-- Latest Bootstrap min CSS -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/themify-icons.css">
+	<!--- owl carousel Css-->
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+	<!--fonts icons Css-->
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<!--prettyPhoto css-->
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet">
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Slick css -->
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/menu.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-offset="80">
+
+	<!-- START PRELOADER -->
+	<div class="preloader">
+		<div class="status">
+			<div class="status-mes"></div>
+		</div>
+	</div>
+	<!-- END PRELOADER -->
+
+	<!-- START NAVBAR -->
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close mt-3">
+				<span class="icon-close2 js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<header class="site-navbar js-sticky-header site-navbar-target bg-white text-dark" role="banner">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-6 col-xl-2">
+					<h1 class="mb-0 site-logo">
+						<a href="index.html">
+							<img src="assets/img/logo-5.png" alt="">
+						</a>
+					</h1>
+				</div>
+				<div class="col-12 col-md-10 d-none d-xl-block">
+					<nav class="site-navigation position-relative text-right" role="navigation">
+						<ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+							<li><a class="nav-link" href="index.html">Home</a></li>
+							<li><a class="nav-link" href="about.html">about</a></li>
+							<li><a class="nav-link" href="blog.html">services</a></li>
+							<li><a class="nav-link" href="gallery.html">Gallery</a></li>
+							<li><a class="nav-link active" href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
+					<a href="#" class="site-menu-toggle js-menu-toggle float-right"><span
+							class="icon-menu h3"></span></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END NAVBAR-->
+
+	<!-- START SECTION TOP -->
+	<section class="section-top">
+		<div class="container">
+			<div class="col-lg-10 offset-lg-1 col-xs-12 text-center">
+				<div class="section-top-title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s"
+					data-wow-offset="0">
+					<h1>Gallery</h1>
+				</div><!-- //.HERO-TEXT -->
+			</div><!--- END COL -->
+		</div><!--- END CONTAINER -->
+	</section>
+	<!-- END SECTION TOP -->
+
+
+
+	 <!-- Gallery Start -->
+    <div class="container py-5 my-5 px-3">
+        <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="fw-medium text-uppercase text-primary mb-2">Our Gallery</p>
+            <h1 class="display-5">Explore Our Recent Work</h1>
+        </div>
+
+<!-- FILTER BUTTONS -->
+<div class="gallery-tabs text-center mb-4">
+    <button class="tab-btn active" onclick="filterGallery('all',this)">All</button>
+
+    <button class="tab-btn" onclick="filterGallery('inspection',this)">3D Inspection</button>
+
+    <button class="tab-btn" onclick="filterGallery('printing',this)">3D Printing</button>
+
+    <button class="tab-btn" onclick="filterGallery('scanning',this)">3D Scanning</button>
+
+    <button class="tab-btn" onclick="filterGallery('Reverse',this)">Reverse Engineering</button>
+
+    <button class="tab-btn" onclick="filterGallery('Sculpture',this)">Sculpture</button>
+
+</div>
+
+<!-- GALLERY -->
+
+<div class="gallery-grid">
+    <div class="gallery-item inspection">
+        <img src="assets/img/New-images/3D_Inspection/4.jpeg">
+    </div>
+
+    <div class="gallery-item printing">
+        <img src="assets/img/New-images/3D_Printing/1.jpeg">
+    </div>
+
+    <div class="gallery-item inspection">
+        <img src="assets/img/New-images/3D_Inspection/3.jpeg">
+    </div>
+
+    <div class="gallery-item printing">
+        <img src="assets/img/New-images/3D_Printing/2.jpeg">
+    </div>
+
+    <div class="gallery-item printing">
+        <img src="assets/img/New-images/3D_Printing/4.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/3.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A1.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Printing/Ganpati1.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A7.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/2.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Scanning/5.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/7.jpeg">
+    </div>
+
+      <div class="gallery-item printing">
+        <img src="assets/img/New-images/3D_Printing/5.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/2.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/3.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Printing/1.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A2.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/10.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Scanning/2.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/11.jpeg">
+    </div>
+  
+      <div class="gallery-item printing">
+        <img src="assets/img/New-images/Reverse Engineering/12.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/6.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A3.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Printing/cat1.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A4.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/4.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Scanning/Shivaji_Maharaj.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/Reverse Engineering/9.jpeg">
+    </div>
+
+      <div class="gallery-item printing">
+        <img src="assets/img/New-images/Reverse Engineering/8.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/Reverse Engineering/8.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/B1.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Printing/cat2.jpeg">
+    </div>
+
+    <div class="gallery-item scanning">
+        <img src="assets/img/New-images/3D_Scanning/A6.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+        <img src="assets/img/New-images/3D_Scanning/B5.jpeg">
+    </div>
+
+    <div class="gallery-item Sculpture">
+        <img src="assets/img/New-images/Scuplture/3D_Scanning/new1.jpeg">
+    </div>
+
+    <div class="gallery-item Reverse">
+          <img src="assets/img/New-images/3D_Scanning/B4.jpeg">
+    </div>
+
+     <div class="gallery-item Reverse">
+          <img src="assets/img/New-images/3D_Scanning/B3.jpeg">
+    </div>
+
+</div>
+
+<!-- PAGINATION -->
+
+<div class="pagination-container">
+
+    <button id="prevBtn" onclick="changePage(-1)">Previous</button>
+
+    <div id="pageNumbers" style="padding:0 10px;"></div>
+
+    <button id="nextBtn" onclick="changePage(1)">Next</button>
+
+</div>
+        
+    </div>
+    <!-- Gallery End -->
+
+	<!-- START FOOTER -->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row footer-padding">
+				<div class="col-md-5 col-sm-5 col-xs-12">
+					<div class="single_footer">						
+						<div class="footer_contact">
+							<ul>
+								<li><i class="fa fa-rocket"></i> <span>
+									Shop No - 2 Sai Dwarka Complex, 
+									Beside Dominos Near Shinde Petrol Pump,
+									 Next to D-MART, Kiwale – 412101</span></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div><!--- END COL -->
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<div class="single_footer">
+						<div class="footer_contact">
+							<ul>
+								<li><i class="fa fa-phone"></i> <span>Call Us - +91 9991272678</span></li>								
+							</ul>
+						</div>
+					</div>
+				</div><!--- END COL -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="single_footer">
+						<div class="footer_contact">
+							<ul>						
+								<li><i class="fa fa-envelope"></i> <span>scanovectsales@gmail.com</span></li>
+							</ul>
+						</div>
+					</div>
+				</div><!--- END COL -->
+				
+			</div><!--- END ROW -->
+			<div class="row text-center">
+				<div class="col-md-12 col-sm-12 col-xs-12 wow zoomIn">
+					<p class="footer_copyright"> Copyright [2023] -All rights reserved with Scanovect| Privacy Policy</p>.
+				</div><!--- END COL -->
+			</div><!--- END ROW -->
+		</div><!--- END CONTAINER -->
+	</footer>
+	<!-- END FOOTER -->
+
+	<!-- Latest jQuery -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<!-- Latest compiled and minified Bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- modernizer JS -->
+	<script src="assets/js/modernizr-2.8.3.min.js"></script>
+	<!-- owl-carousel min js  -->
+	<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+	<!-- jquery mixitup min js -->
+	<script src="assets/js/jquery.mixitup.js"></script>
+	<!-- jquery.prettyPhoto js -->
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<!-- scrolltopcontrol js -->
+	<script src="assets/js/scrolltopcontrol.js"></script>
+	<!-- Menu js -->
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<!-- WOW - Reveal Animations When You Scroll -->
+	<script src="assets/js/wow.min.js"></script>
+	<!-- scripts js -->
+	<script src="assets/js/scripts.js"></script>
+
+	 <script>let currentFilter = "all";
+let currentPage = 1;
+
+const itemsPerPage = 8;
+
+function filterGallery(category, button) {
+
+    currentFilter = category;
+    currentPage = 1;
+
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    showGallery();
+}
+
+function showGallery() {
+
+    const items = document.querySelectorAll(".gallery-item");
+
+    let filteredItems = [];
+
+    items.forEach(item => {
+
+        if (currentFilter === "all" || item.classList.contains(currentFilter)) {
+
+            filteredItems.push(item);
+
+        }
+
+        item.style.display = "none";
+
+    });
+
+    const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+
+    const start = (currentPage - 1) * itemsPerPage;
+
+    const end = start + itemsPerPage;
+
+    filteredItems.slice(start, end).forEach(item => {
+
+        item.style.display = "block";
+
+    });
+
+    createPagination(totalPages);
+
+    document.getElementById("prevBtn").disabled = currentPage === 1;
+
+    document.getElementById("nextBtn").disabled = currentPage === totalPages || totalPages === 0;
+
+}
+
+function createPagination(totalPages) {
+
+    const pageNumbers = document.getElementById("pageNumbers");
+
+    pageNumbers.innerHTML = "";
+
+    for (let i = 1; i <= totalPages; i++) {
+
+        let btn = document.createElement("button");
+
+        btn.innerHTML = i;
+
+        if (i === currentPage) {
+
+            btn.classList.add("active");
+
+        }
+
+        btn.onclick = function () {
+
+            currentPage = i;
+
+            showGallery();
+
+        };
+
+        pageNumbers.appendChild(btn);
+
+    }
+
+}
+
+function changePage(direction) {
+
+    currentPage += direction;
+
+    showGallery();
+
+}
+
+showGallery();
+</script>
+</body>
+
+</html>
