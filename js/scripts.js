@@ -1,8 +1,4 @@
-/*
-Author       : Theme_Ocean.
-Template Name: Hilux - Real Estate HTML Template 
-Version      : 1.0
-*/
+
 (function($) {
 	'use strict';
 	
