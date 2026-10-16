@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,31 +8,34 @@
 	<!-- SITE TITLE -->
 	<title>Scanovect</title>
 	<!-- Latest Bootstrap min CSS -->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap"
 		rel="stylesheet">
 	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="fonts/font-awesome.min.css">
-	<link rel="stylesheet" href="fonts/themify-icons.css">
+	<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/themify-icons.css">
 	<!--- owl carousel Css-->
-	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.css">
-	<link rel="stylesheet" href="owlcarousel/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
 	<!--fonts icons Css-->
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
 	<!--prettyPhoto css-->
-	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet">
 	<!-- flexslider CSS -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
 	<!-- animate CSS -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<!-- Slick css -->
-	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/menu.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
-
+	<link rel="stylesheet" href="assets/css/menu.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+      
+	
 </head>
 
 <body data-spy="scroll" data-offset="80">
@@ -57,12 +59,12 @@
 	</div>
 
 	<header class="site-navbar js-sticky-header site-navbar-target bg-white text-dark" role="banner">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-6 col-xl-2">
 					<h1 class="mb-0 site-logo">
 						<a href="index.html">
-							<img src="img/logo-5.png" alt="">
+							<img src="assets/img/logo-5.png" alt="">
 						</a>
 					</h1>
 				</div>
@@ -71,15 +73,9 @@
 						<ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
 							<li><a class="nav-link active" href="index.html">Home</a></li>
 							<li><a class="nav-link" href="about.html">about</a></li>
-							<li><a class="nav-link" href="blog.html">services</a></li>
+							<li><a class="nav-link" href="service.html">services</a></li>
 							<li><a class="nav-link" href="gallery.html">Gallery</a></li>
 							<li><a class="nav-link" href="contact.html">Contact</a></li>
-							<!-- <li class="nav-item mt-lg-0">
-								<a href="#contact" class="btn-scanovect">
-									Get a Quote
-								</a>
-							</li> -->
-
 						</ul>
 					</nav>
 				</div>
@@ -96,27 +92,25 @@
 	<section id="home" class="home-area">
 		<div id="home-slider" class="flexslider text-center loading">
 			<ul class="slides">
-				<li style="background: url('img/1.1.jpg') no-repeat center center;">
-					<video autoplay muted loop playsinline style="width:100%">
-							<source
-								src="img/Introducing the All-New 3DeVOK MT Professional 3D Scanner – Redefining What A Tool Can Be 720p60.mp4"
-								type="video/mp4">
-					</video>
-					<!-- <div class="hero-text">
-						<h2>Fast & accurate way of Digitalising</h2>
+				<li style="background: url('assets/img/1.1.jpg') no-repeat center center;">
+					<div class="hero-text">
+						<h2>Rapid Prototyping</h2>
 						<p>From concept to production in record time</p>
-					</div> -->
+						
+					</div>
 				</li>
-				<li style="background: url('img/1.2-1.jpg') no-repeat center center;">
+				<li style="background: url('assets/img/1.2-1.jpg') no-repeat center center;">
 					<div class="hero-text">
 						<h2>3D Printing Scanning Services</h2>
 						<p>Industrial Solution Providing Company</p>
+						
 					</div>
 				</li>
-				<li style="background: url('img/3DPrinting.jpg') no-repeat center center;">
+				<li style="background: url('assets/img/3DPrinting.jpg') no-repeat center center;">
 					<div class="hero-text">
 						<h2>Multi-Material & Color Printing</h2>
 						<p>Create complex, visually accurate and functional parts</p>
+						
 					</div>
 				</li>
 			</ul>
@@ -137,8 +131,8 @@
 							we empower innovators, engineers, designers, and manufacturers with smart,
 							reliable, and high-quality digital solutions — tailored for industries ranging
 							from aerospace and automotive to healthcare, architecture, and education.</p>
-
-						<a href="#">Read More</a>
+						
+						<a href="about.html">Read More</a>
 					</div>
 				</div><!-- END COL -->
 				<div class="col-lg-6 col-sm-12 col-xs-12">
@@ -146,10 +140,10 @@
 						<!-- Slide 1 : Video -->
 						<video autoplay muted loop playsinline style="width:100%">
 							<source
-								src="img/Introducing the All-New 3DeVOK MT Professional 3D Scanner – Redefining What A Tool Can Be 720p60.mp4"
+								src="assets/img/Introducing the All-New 3DeVOK MT Professional 3D Scanner – Redefining What A Tool Can Be 720p60.mp4"
 								type="video/mp4">
 						</video>
-						<!-- <img src="img/2.jpg" class="img-fluid" alt="" /> -->
+						<!-- <img src="assets/img/2.jpg" class="img-fluid" alt="" /> -->
 					</div>
 				</div><!-- END COL -->
 			</div><!-- END ROW -->
@@ -157,104 +151,1141 @@
 	</section>
 	<!-- END ABOUT US  -->
 
-	<!-- START PROPERTY -->
-	<section class="template_property">
-		<div class="container">
-			<div class="section-title text-center wow zoomIn">
-				<h2>Our Services</h2>
-				<p>Our precision solutions span across the world's most demanding sectors</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-sm-12 col-xs-12">
-					<div class="single_property">
-						<img src="img/3dScanning.jpg" class="img-fluid" alt="" />
-						<div class="single_property_description text-center">
-							<h5 class="text-white"> 3D Scanning</h5>
-						</div>
-					</div><!--- END SINGLE PROPERTY -->
-				</div><!--- END COL -->
-				<div class="col-lg-4 col-sm-12 col-xs-12">
-					<div class="single_property">
-						<img src="img/3DPrinting.jpg" class="img-fluid" alt="" />
-						<div class="single_property_description text-center">
-							<h5 class="text-white"> 3D Printing</h5>
-						</div>
-					</div>
-				</div><!--- END  COL-->
-				<div class="col-lg-4 col-sm-12 col-xs-12">
-					<div class="single_property">
-						<img src="img/3DInspection.jpg" class="img-fluid" alt="" />
-						<div class="single_property_description text-center">
-							<h5 class="text-white"> 3D Inspection</h5>
-						</div>
-					</div>
-				</div><!--- END  COL-->
-			</div><!--- END ROW -->
 
-			<div class="row">
-				<div class="col-lg-4 col-sm-12 col-xs-12">
-					<div class="single_property">
-						<img src="img/New-images/Reverse Engineering/1.jpeg" class="img-fluid" alt="" />
-						<div class="single_property_description text-center">
-							<h5 class="text-white">Reverse Engineering</h5>
-						</div>
+	
 
-					</div><!--- END SINGLE PROPERTY -->
-				</div><!--- END COL -->
-				<div class="col-lg-4 col-sm-12 col-xs-12">
-					<div class="single_property">
-						<img src="img/New-images/Scuplture/3D_Scanning/new1.jpeg" class="img-fluid" alt="" />
-						<div class="single_property_description text-center">
-							<h5 class="text-white">Scuplture</h5>
-						</div>
-					</div>
-				</div><!--- END  COL-->
-			</div><!--- END ROW -->
 
-		</div><!--- END CONTAINER -->
-	</section>
-	<!-- END  PROPERTY -->
 
-	<section class="about-cards py-5">
+
+    <!-- =================================
+         START OUR SERVICES
+    ================================== -->
+
+    <section class="template_property">
+        <div class="container">
+
+            <div class="section-title text-center">
+                <h2>Our Services</h2>
+                <p>
+                    Our precision solutions span across the world's
+                    most demanding sectors
+                </p>
+            </div>
+
+            <div class="row">
+
+                <!-- SERVICE 1: 3D SCANNING -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single_property">
+
+                        <img src="assets/img/3dScanning.jpg"
+                             alt="3D Scanning"
+                             class="img-fluid">
+
+                        <div class="single_property_description">
+                            <button type="button"
+                                    class="service-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#scanningModal">
+                                3D Scanning
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+              
+<!-- 3D PRINTING CARD -->
+<div class="col-lg-4 col-sm-12 col-xs-12">
+    <div class="single_property">
+        <img src="assets/img/3DPrinting.jpg"
+             alt="3D Printing">
+		   <div class="single_property_description">
+                            <button type="button"
+                                    class="service-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#printingModal">
+                               3D Printing
+                            </button>
+                        </div>
+
+       
+    </div>
+</div>
+
+
+                <!-- SERVICE 3: 3D INSPECTION -->
+                
+<div class="col-lg-4 col-sm-12 col-xs-12">
+    <div class="single_property">
+        <img src="assets/img/3DInspection.jpg"
+             alt="3D Inspection">
+
+			 <div class="single_property_description">
+                            <button type="button"
+                                    class="service-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#inspectionModal">
+                               3D Inspection
+                            </button>
+                        </div>
+       
+    </div>
+</div>
+
+                <!-- SERVICE 4: REVERSE ENGINEERING -->
+               
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="single_property">
+
+        <img src="assets/img/New-images/Reverse Engineering/1.jpeg"
+             class="img-fluid"
+             alt="Reverse Engineering">
+
+        <div class="single_property_description text-center">
+            <button type="button"
+                    class="service-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#reverseEngineeringModal">
+                Reverse Engineering
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- PROTOTYPING CARD -->
+<div class="col-lg-4 col-sm-12 col-xs-12">
+    <div class="single_property">
+         <img src="assets/img/New-images/Scuplture/3D_Scanning/new1.jpeg"
+                             alt="Sculpture"
+                             class="img-fluid">
+
+							  <div class="single_property_description">
+                            <button type="button"
+                                    class="service-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#prototypingModal">
+                               Sculpture
+                            </button>
+                        </div>
+        </div>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================
+         END OUR SERVICES
+    ================================== -->
+
+
+    <!-- =================================
+         START 3D SCANNING POPUP
+    ================================== -->
+
+    <div class="modal fade scanning-modal"
+         id="scanningModal"
+         tabindex="-1"
+         aria-labelledby="scanningModalTitle"
+         aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <!-- POPUP HEADER -->
+                <div class="modal-header">
+
+                    <div>
+                        <span class="scanning-tag">
+                            OUR SERVICES
+                        </span>
+
+                        <h3 class="modal-title"
+                            id="scanningModalTitle">
+                            What Is 3D Scanning?
+                        </h3>
+
+                        <p class="header-subtitle">
+                            Capturing the real world in precise digital detail
+                        </p>
+                    </div>
+
+                    <button type="button"
+                            class="icon-close2 btn-outline-secondary bg-none"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"> 
+                    </button>
+
+                </div>
+
+                <!-- POPUP BODY -->
+                <div class="modal-body">
+
+                    <!-- INTRODUCTION -->
+                    <div class="scanning-intro">
+
+                        <h4>Understanding 3D Scanning</h4>
+
+                        <p>
+                            3D scanning is a technology that captures the
+                            physical shape and details of real-world objects
+                            or environments by using lasers, cameras, or
+                            other sensors to create digital 3D models.
+                        </p>
+
+                        <p>
+                            This process is widely used in manufacturing,
+                            architecture, healthcare, and entertainment to
+                            replicate and analyze physical objects with
+                            precision or create virtual representations
+                            for design and simulation purposes.
+                        </p>
+
+                    </div>
+
+                    <!-- PURPOSE OF 3D SCANNING -->
+                    <div class="scanning-purpose">
+
+                        <h4>What Is the Purpose of 3D Scanning?</h4>
+
+                        <p>
+                            The purpose of 3D scanning is to create highly
+                            accurate digital representations of real-world
+                            objects or environments in three dimensions.
+                            This technology serves various purposes, including:
+                        </p>
+
+                        <div class="purpose-list">
+
+                            <!-- PURPOSE 1 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">01</span>
+
+                                <div>
+                                    <h5>Replication</h5>
+
+                                    <p>
+                                        3D scanning enables precise duplication
+                                        of physical objects, which is valuable
+                                        in manufacturing, art preservation,
+                                        and restoration.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 2 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">02</span>
+
+                                <div>
+                                    <h5>Design and Engineering</h5>
+
+                                    <p>
+                                        Engineers and designers capture
+                                        real-world objects for analysis,
+                                        modification, and integration into
+                                        new product designs.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 3 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">03</span>
+
+                                <div>
+                                    <h5>Quality Control</h5>
+
+                                    <p>
+                                        Scanned objects can be compared with
+                                        digital models to identify dimensional
+                                        deviations and potential defects.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 4 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">04</span>
+
+                                <div>
+                                    <h5>Cultural Heritage Preservation</h5>
+
+                                    <p>
+                                        3D scanning helps preserve historical
+                                        artifacts and cultural heritage through
+                                        digital archives and restoration work.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 5 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">05</span>
+
+                                <div>
+                                    <h5>Medical Applications</h5>
+
+                                    <p>
+                                        Healthcare applications include
+                                        patient-specific modeling, prosthetics,
+                                        orthodontics, and surgical planning.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 6 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">06</span>
+
+                                <div>
+                                    <h5>Reverse Engineering</h5>
+
+                                    <p>
+                                        Businesses capture existing components
+                                        to reconstruct CAD models, reproduce
+                                        parts, and improve product designs.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 7 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">07</span>
+
+                                <div>
+                                    <h5>Entertainment and Virtual Reality</h5>
+
+                                    <p>
+                                        3D scanning supports realistic digital
+                                        models for video games, films,
+                                        animation, and virtual reality.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 8 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">08</span>
+
+                                <div>
+                                    <h5>Archaeology and Anthropology</h5>
+
+                                    <p>
+                                        Researchers use scanning to document
+                                        and study ancient artifacts, fossils,
+                                        and archaeological sites.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- PURPOSE 9 -->
+                            <div class="purpose-item">
+
+                                <span class="purpose-number">09</span>
+
+                                <div>
+                                    <h5>Environmental and Civil Engineering</h5>
+
+                                    <p>
+                                        Scanning helps create accurate terrain
+                                        models for environmental assessments,
+                                        construction, and infrastructure
+                                        development.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- CONTACT FOOTER -->
+                    <div class="scanning-footer">
+
+                        <div>
+                            <h5>Need Professional 3D Scanning?</h5>
+
+                            <p>
+                                Let's discuss your project requirements
+                                and find the right solution.
+                            </p>
+                        </div>
+
+                        <button type="button"
+                                class="scanning-enquiry-btn"
+                                id="contactUsBtn">
+                            Contact Us &rarr;
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- START 3D PRINTING MODAL -->
+<div class="modal fade scanning-modal"
+     id="printingModal"
+     tabindex="-1"
+     aria-labelledby="printingModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <!-- HEADER -->
+            <div class="modal-header">
+                <h2 class="modal-title" id="printingModalLabel">
+                    What Is 3D Printing?
+                </h2>
+
+                <button type="button"
+                        class="icon-close2 btn-outline-secondary bg-none"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"> 
+                </button>
+            </div>
+
+            <!-- BODY -->
+            <div class="modal-body">
+
+                <div class="scanning-intro">
+                    <p>
+                        3D printing, also known as additive manufacturing,
+                        is a process of creating three-dimensional objects
+                        from digital models by adding material layer by
+                        layer. Unlike traditional subtractive manufacturing,
+                        which removes material from a solid block, 3D
+                        printing builds objects from the ground up.
+                    </p>
+
+                    <p>
+                        Its versatility, design flexibility, and ability
+                        to produce complex customized objects make it
+                        valuable across industries, from product
+                        development and engineering to healthcare and
+                        manufacturing.
+                    </p>
+                </div>
+
+                <h3 class="scanning-section-title">
+                    Key Characteristics of 3D Printing
+                </h3>
+
+                <div class="purpose-list">
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">01</span>
+                        <div>
+                            <h4>Layered Manufacturing</h4>
+                            <p>
+                                Create objects by depositing or solidifying
+                                successive layers of material, including
+                                plastic, resin, metal, and other compatible
+                                materials.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">02</span>
+                        <div>
+                            <h4>Digital Design</h4>
+                            <p>
+                                Begin with a digital 3D model created using
+                                computer-aided design (CAD) software. The
+                                model acts as the blueprint for the printed
+                                object.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">03</span>
+                        <div>
+                            <h4>Customization</h4>
+                            <p>
+                                Produce personalized products and unique
+                                components tailored to specific dimensions,
+                                designs, and functional requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">04</span>
+                        <div>
+                            <h4>Rapid Prototyping</h4>
+                            <p>
+                                Build prototypes quickly so designers and
+                                engineers can evaluate form, fit, and
+                                function before committing to larger-scale
+                                production.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">05</span>
+                        <div>
+                            <h4>Small-Batch Production</h4>
+                            <p>
+                                Manufacture limited quantities or
+                                on-demand parts, potentially reducing the
+                                need for expensive molds and specialized
+                                tooling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">06</span>
+                        <div>
+                            <h4>Complex Geometries</h4>
+                            <p>
+                                Create intricate shapes, internal channels,
+                                lightweight structures, and designs that
+                                may be difficult to produce with
+                                conventional manufacturing techniques.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">07</span>
+                        <div>
+                            <h4>Various Materials and Technologies</h4>
+                            <p>
+                                Choose from different printing technologies
+                                and compatible materials, including plastics,
+                                photopolymer resins, metals, and certain
+                                ceramics, depending on the application.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="modal-footer scanning-footer">
+                <button type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-dismiss="modal">
+                    Close
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary scanning-enquiry-btn"
+                        data-bs-dismiss="modal"
+                        onclick="document.getElementById('contact')?.scrollIntoView({behavior:'smooth', block:'start'});">
+                    Contact Us
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- END 3D PRINTING MODAL -->
+
+<!-- START PROTOTYPING MODAL -->
+<div class="modal fade scanning-modal"
+     id="prototypingModal"
+     tabindex="-1"
+     aria-labelledby="prototypingModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <!-- MODAL HEADER -->
+            <div class="modal-header">
+                <h2 class="modal-title" id="sculptureModalLabel">
+                    What Is 3D Sculpture?
+                </h2>
+
+                <button type="button"
+                        class="icon-close2 btn-outline-secondary bg-none"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"> 
+                </button>
+            </div>
+
+            <!-- MODAL BODY -->
+            <div class="modal-body">
+
+                <div class="scanning-intro">
+                    <p>
+                        3D sculpture is the process of creating detailed
+                        three-dimensional artistic or functional forms
+                        using digital modeling, sculpting software,
+                        3D scanning, and advanced manufacturing
+                        technologies.
+                    </p>
+
+                    <p>
+                        It allows artists, designers, engineers, and
+                        manufacturers to create, modify, preserve, and
+                        reproduce intricate shapes with a high level
+                        of detail. Digital sculptures can also be
+                        transformed into physical objects using
+                        3D printing or other manufacturing methods.
+                    </p>
+                </div>
+
+                <h3 class="scanning-section-title">
+                    Key Features and Applications of 3D Sculpture
+                </h3>
+
+                <div class="purpose-list">
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">01</span>
+                        <div>
+                            <h4>Digital Sculpting</h4>
+                            <p>
+                                Create detailed three-dimensional models
+                                using digital sculpting and 3D modeling
+                                software, with control over shape,
+                                texture, and fine details.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">02</span>
+                        <div>
+                            <h4>3D Scanning and Digitization</h4>
+                            <p>
+                                Capture the shape and surface details
+                                of existing sculptures, statues, and
+                                artifacts to create digital models
+                                for documentation or reproduction.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">03</span>
+                        <div>
+                            <h4>Custom Design</h4>
+                            <p>
+                                Develop customized sculptures, decorative
+                                objects, artistic installations, and
+                                product designs according to specific
+                                creative requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">04</span>
+                        <div>
+                            <h4>3D Printing and Manufacturing</h4>
+                            <p>
+                                Convert digital sculpture models into
+                                physical objects using suitable 3D
+                                printing materials and manufacturing
+                                techniques.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">05</span>
+                        <div>
+                            <h4>Restoration and Preservation</h4>
+                            <p>
+                                Digitally document historical sculptures
+                                and cultural artifacts to support
+                                restoration planning, archiving, and
+                                long-term preservation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">06</span>
+                        <div>
+                            <h4>Architectural and Decorative Models</h4>
+                            <p>
+                                Produce detailed decorative elements,
+                                architectural ornaments, scale models,
+                                and custom design features for various
+                                projects.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">07</span>
+                        <div>
+                            <h4>Detail and Precision</h4>
+                            <p>
+                                Reproduce intricate shapes and surface
+                                features. The final level of detail
+                                depends on the modeling, scanning,
+                                printing, and finishing methods used.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MODAL FOOTER -->
+            <div class="modal-footer scanning-footer">
+                <button type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-dismiss="modal">
+                    Close
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary scanning-enquiry-btn"
+                        data-bs-dismiss="modal"
+                        onclick="document.getElementById('contact')?.scrollIntoView({behavior:'smooth', block:'start'});">
+                    Contact Us
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- END PROTOTYPING MODAL -->
+
+	
+<!-- START REVERSE ENGINEERING POPUP -->
+<div class="modal fade scanning-modal"
+     id="reverseEngineeringModal"
+     tabindex="-1"
+     aria-labelledby="reverseEngineeringModalTitle"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <!-- HEADER -->
+            <div class="modal-header">
+                <div>
+                    <span class="scanning-tag">OUR SERVICES</span>
+
+                    <h3 class="modal-title"
+                        id="reverseEngineeringModalTitle">
+                        What Is Reverse Engineering?
+                    </h3>
+
+                    <p class="header-subtitle">
+                        Transforming physical objects into digital designs
+                    </p>
+                </div>
+
+                <button type="button"
+                        class="icon-close2 btn-outline-secondary bg-none"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"> 
+                </button>
+            </div>
+
+            <!-- BODY -->
+            <div class="modal-body">
+
+                <div class="scanning-intro">
+                    <h4>Understanding Reverse Engineering</h4>
+
+                    <p>
+                        Reverse engineering in the context of 3D scanning
+                        involves capturing detailed three-dimensional data
+                        from an existing physical object or environment and
+                        creating a digital model or design from the scanned
+                        data.
+                    </p>
+
+                    <p>
+                        This digital model can be used for replication,
+                        modification, analysis, product development, or
+                        documentation. By combining 3D scanning with
+                        specialized software and CAD tools, businesses can
+                        recreate components, improve existing designs, and
+                        develop accurate digital representations of physical
+                        products.
+                    </p>
+                </div>
+
+                <div class="scanning-purpose">
+                    <h4>How Does Reverse Engineering Work?</h4>
+
+                    <p>
+                        Reverse engineering using 3D scanning generally
+                        involves the following five steps.
+                    </p>
+
+                    <div class="purpose-list">
+
+                        <!-- STEP 1 -->
+                        <div class="purpose-item">
+                            <span class="purpose-number">01</span>
+
+                            <div>
+                                <h5>Data Capture</h5>
+
+                                <p>
+                                    A laser scanner or structured-light
+                                    scanner captures the three-dimensional
+                                    geometry of an existing object. The
+                                    collected data generates a point cloud
+                                    or mesh representing the physical object.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- STEP 2 -->
+                        <div class="purpose-item">
+                            <span class="purpose-number">02</span>
+
+                            <div>
+                                <h5>Data Processing</h5>
+
+                                <p>
+                                    Specialized software processes, aligns,
+                                    and cleans the scanned data, helping
+                                    create an accurate digital representation
+                                    of the original object's shape and
+                                    structure.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- STEP 3 -->
+                        <div class="purpose-item">
+                            <span class="purpose-number">03</span>
+
+                            <div>
+                                <h5>Digital Reconstruction</h5>
+
+                                <p>
+                                    The scanned geometry can be refined using
+                                    CAD software to create a functional,
+                                    editable model suitable for engineering
+                                    and product development.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- STEP 4 -->
+                        <div class="purpose-item">
+                            <span class="purpose-number">04</span>
+
+                            <div>
+                                <h5>Analysis and Modification</h5>
+
+                                <p>
+                                    Engineers analyze the digital model to
+                                    understand its design, identify potential
+                                    defects, assess dimensions, and make
+                                    improvements where required.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- STEP 5 -->
+                        <div class="purpose-item">
+                            <span class="purpose-number">05</span>
+
+                            <div>
+                                <h5>Replication and Manufacturing</h5>
+
+                                <p>
+                                    The completed digital model can be used
+                                    for 3D printing, CNC machining, and other
+                                    manufacturing processes to reproduce or
+                                    improve the original component.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="scanning-footer">
+                    <div>
+                        <h5>Have a Component to Recreate?</h5>
+
+                        <p>
+                            Discuss your reverse engineering requirements
+                            with our team.
+                        </p>
+                    </div>
+
+                    <button type="button"
+                            class="scanning-enquiry-btn"
+                            data-bs-dismiss="modal"
+                            onclick="document.getElementById('contact')?.scrollIntoView({behavior:'smooth',block:'start'})">
+                        Contact Us &rarr;
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END REVERSE ENGINEERING POPUP -->
+
+
+<!-- START 3D INSPECTION MODAL -->
+<div class="modal fade scanning-modal"
+     id="inspectionModal"
+     tabindex="-1"
+     aria-labelledby="inspectionModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <!-- MODAL HEADER -->
+            <div class="modal-header">
+                <h2 class="modal-title" id="inspectionModalLabel">
+                    What Is 3D Inspection?
+                </h2>
+
+                <button type="button"
+                        class="icon-close2 btn-outline-secondary bg-none"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"> 
+                </button>
+            </div>
+
+            <!-- MODAL BODY -->
+            <div class="modal-body">
+
+                <div class="scanning-intro">
+                    <p>
+                        3D inspection, also known as 3D metrology or
+                        3D quality control, is a technology used to
+                        assess the accuracy, quality, and dimensional
+                        attributes of physical objects in three dimensions.
+                    </p>
+
+                    <p>
+                        It uses 3D scanning or measurement equipment to
+                        capture detailed three-dimensional data. Software
+                        then compares this data with a reference model or
+                        CAD specifications to identify deviations and
+                        ensure that components meet required tolerances
+                        and quality standards.
+                    </p>
+                </div>
+
+                <h3 class="scanning-section-title">
+                    Key Aspects of 3D Inspection
+                </h3>
+
+                <div class="purpose-list">
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">01</span>
+                        <div>
+                            <h4>Data Capture</h4>
+                            <p>
+                                Collect detailed 3D measurements using
+                                laser scanners, structured-light scanners,
+                                or coordinate measuring machines (CMMs).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">02</span>
+                        <div>
+                            <h4>Comparison and Analysis</h4>
+                            <p>
+                                Compare scanned data with CAD models or
+                                reference specifications to identify
+                                dimensional deviations, defects, shape
+                                differences, and surface variations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">03</span>
+                        <div>
+                            <h4>Quality Assurance</h4>
+                            <p>
+                                Verify manufactured parts against
+                                engineering requirements, helping detect
+                                defects and maintain consistent product
+                                quality.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">04</span>
+                        <div>
+                            <h4>Speed and Precision</h4>
+                            <p>
+                                Measure complex geometries quickly and
+                                accurately. Achievable precision depends
+                                on the equipment, calibration, and
+                                inspection conditions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">05</span>
+                        <div>
+                            <h4>Non-Destructive Inspection</h4>
+                            <p>
+                                Examine high-value or delicate components
+                                without damaging them, where the chosen
+                                measurement method is non-contact or
+                                otherwise non-destructive.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">06</span>
+                        <div>
+                            <h4>Reverse Engineering</h4>
+                            <p>
+                                Use inspection data from existing parts
+                                to support digital model creation,
+                                component replication, and design
+                                modifications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="purpose-item">
+                        <span class="purpose-number">07</span>
+                        <div>
+                            <h4>Automation</h4>
+                            <p>
+                                Integrate inspection systems into
+                                production workflows for repeatable,
+                                efficient quality checks in high-volume
+                                manufacturing environments.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MODAL FOOTER -->
+            <div class="modal-footer scanning-footer">
+                <button type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-dismiss="modal">
+                    Close
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary scanning-enquiry-btn"
+                        data-bs-dismiss="modal"
+                        onclick="document.getElementById('contact')?.scrollIntoView({behavior:'smooth', block:'start'});">
+                    Contact Us
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- END 3D INSPECTION MODAL -->
+
+
+    <!-- =================================
+         END 3D SCANNING POPUP
+    ================================== -->
+
+
+
+	<section class="about-cards py-5 px-6">
 		<div class="container">
 			<div class="row g-4">
-				<div class="col-lg-4 col-md-6">
-					<div class="info-card">
-						<div class="card-bg" style="background-image:url('img/3dScanning.jpg');"></div>
+				<div class="col-lg-4 col-md-6 col-xs-12 mt-2">
+					<div class="info-card mt-1">
+
+						<div class="card-bg" style="background-image:url('assets/img/3dScanning.jpg');"></div>
+
 						<div class="overlay"></div>
-						<div class="card-content center">
-							<h2 class="center">Vision</h2>
+						<div class="card-content">
+							<h2>Vision</h2>
 							<ul>
 								<li>At our company, we strive to be at the forefront of the industry by continuously
 									developing innovative solutions.</li>
 							</ul>
+
+							<a href="about.html" class="btn-card">
+								Read More
+							</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-md-6">
-					<div class="info-card">
-						<div class="card-bg" style="background-image:url('img/3DPrinting.jpg');"></div>
+				<div class="col-lg-4 col-md-6 col-xs-12 mt-2">
+					<div class="info-card mt-1">
+						<div class="card-bg" style="background-image:url('assets/img/3DPrinting.jpg');"></div>
+
 						<div class="overlay"></div>
-						<div class="card-content center">
-							<h2 class="center">Mission</h2>
+						<div class="card-content">
+							<h2>Mission</h2>
 							<ul>
 								<li>Our main goal is to make sure our customers are happy and satisfied with our work.
 								</li>
 							</ul>
+							<a href="about.html" class="btn-card">
+								Read More
+							</a>
 						</div>
+
 					</div>
+
 				</div>
 
-				<div class="col-lg-4 col-md-6 mx-md-auto">
-					<div class="info-card">
-						<div class="card-bg" style="background-image:url('img/3dScanning.jpg');"></div>
+				<div class="col-lg-4 col-md-6 col-xs-12 mx-md-auto">
+					<div class="info-card mt-1">
+						<div class="card-bg" style="background-image:url('assets/img/3dScanning.jpg');"></div>
+
 						<div class="overlay"></div>
-						<div class="card-content center">
-							<h2 class="center">About ScanElite</h2>
+						<div class="card-content">
+							<h2>About ScanElite</h2>
 							<ul>
 								<li>We have established ourselves as industry leaders in cutting-edge technologies.</li>
 							</ul>
+
+							<a href="about.html" class="btn-card">
+								Read More
+							</a>
 						</div>
 					</div>
 				</div>
@@ -262,7 +1293,7 @@
 		</div>
 	</section>
 
-	<!-- START PROPERTY -->
+<!-- START PROPERTY -->
 	<section class="template_property section-padding">
 		<div class="container">
 			<div class="section-title  text-center wow zoomIn">
@@ -272,7 +1303,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-12 col-xs-12">
 					<div class="single_property">
-						<img src="img/Film-Industry.jpg" class="img-fluid" alt="" />
+						<img src="assets/img/Film-Industry.jpg" class="img-fluid" alt="" />
 						<div class="single_property_description text-center">
 							<h5 class="text-white">Flim Industry</h5>
 						</div>
@@ -292,7 +1323,7 @@
 				</div><!--- END  COL-->
 				<div class="col-lg-4 col-sm-12 col-xs-12">
 					<div class="single_property">
-						<img src="img/Defence.jpg" class="img-fluid" alt="" />
+						<img src="assets/img/Defence.jpg" class="img-fluid" alt="" />
 						<div class="single_property_description text-center">
 							<h5 class="text-white">Defence</h5>
 						</div>
@@ -311,7 +1342,7 @@
 				</div><!--- END  COL-->
 				<div class="col-lg-4 col-sm-12 col-xs-12">
 					<div class="single_property">
-						<img src="img/Medical.jpg" class="img-fluid" alt="" />
+						<img src="assets/img/Medical.jpg" class="img-fluid" alt="" />
 						<div class="single_property_description text-center">
 							<h5 class="text-white">Medical</h5>
 						</div>
@@ -354,45 +1385,50 @@
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Scanning">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/3D_Scanning/A1.jpeg" class="img-fluid" alt="" />
+							
 							<figcaption>
-								<a class="prettyPhoto image_zoom" href="img/New-images/3D_Scanning/A1.jpeg"></a>
+								<a class="prettyPhoto image_zoom" href="assets/img/New-images/3D_Scanning/A1.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">3D Scanning</a></p>
 							</figcaption>
+							<img src="assets/img/New-images/3D_Scanning/A1.jpeg" class="img-fluid" alt="" />
 						</figure>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Printing">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/3D_Printing/4.jpeg" class="img-fluid" alt="" />
 							<figcaption>
-								<a class="prettyPhoto image_zoom" href="img/New-images/3D_Printing/1.jpeg"></a>
+								<a class="prettyPhoto image_zoom" href="assets/img/New-images/3D_Printing/1.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">3D_Printing</a></p>
 							</figcaption>
+							<img src="assets/img/New-images/3D_Printing/4.jpeg" class="img-fluid" alt="" />
+							
 						</figure>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Inspection">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/3D_Inspection/4.jpeg" class="img-fluid" alt="" />
 							<figcaption>
-								<a class="prettyPhoto image_zoom" href="img/New-images/3D_Inspection/4.jpeg"></a>
+								<a class="prettyPhoto image_zoom" href="assets/img/New-images/3D_Inspection/4.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">3D_Inspection</a></p>
 							</figcaption>
+							<img src="assets/img/New-images/3D_Inspection/4.jpeg" class="img-fluid" alt="" />
+							
 						</figure>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Engineering">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/Reverse Engineering/1.jpeg" class="img-fluid" alt="" />
 							<figcaption>
-								<a class="prettyPhoto image_zoom" href="img/New-images/Reverse Engineering/1.jpeg"></a>
+								<a class="prettyPhoto image_zoom"
+									href="assets/img/New-images/Reverse Engineering/1.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">Reverse Engineering</a>
 								</p>
 							</figcaption>
+							<img src="assets/img/New-images/Reverse Engineering/1.jpeg" class="img-fluid" alt="" />
+							
 						</figure>
 					</div>
 				</div><!--- END COL -->
@@ -400,11 +1436,12 @@
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Scanning">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/3D_Scanning/A5.jpeg" class="img-fluid" alt="" />
 							<figcaption>
-								<a class="prettyPhoto image_zoom" href="img/New-images/3D_Scanning/A5.jpeg"></a>
+								<a class="prettyPhoto image_zoom" href="assets/img/New-images/3D_Scanning/A5.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">3D_Scanning</a></p>
 							</figcaption>
+							<img src="assets/img/New-images/3D_Scanning/A5.jpeg" class="img-fluid" alt="" />
+							
 						</figure>
 					</div>
 				</div><!--- END COL -->
@@ -412,13 +1449,14 @@
 				<div class="col-lg-4 col-sm-4 col-xs-12 mix Scuplture">
 					<div class="grid">
 						<figure class="effect-apollo">
-							<img src="img/New-images/Scuplture/3D_Scanning/Shivaji_Maharaj3.jpeg" class="img-fluid"
-								alt="" />
 							<figcaption>
 								<a class="prettyPhoto image_zoom"
-									href="img/New-images/Scuplture/3D_Scanning/Shivaji_Maharaj3.jpeg"></a>
+									href="assets/img/New-images/Scuplture/3D_Scanning/Shivaji_Maharaj3.jpeg"></a>
 								<p><a href="#" data-toggle="modal" data-target="#projectModal">Scuplture/</a></p>
 							</figcaption>
+							<img src="assets/img/New-images/Scuplture/3D_Scanning/Shivaji_Maharaj3.jpeg"
+								class="img-fluid" alt="" />
+							
 						</figure>
 					</div>
 				</div><!--- END COL -->
@@ -426,6 +1464,7 @@
 		</div><!--- END CONTAINER -->
 	</section>
 	<!-- END PORTFOLIO -->
+
 
 	<!-- START CONTACT FORM  -->
 	<section class="contact-area section-padding">
@@ -505,14 +1544,14 @@
 		<div class="container">
 			<div class="row footer-padding">
 				<div class="col-md-5 col-sm-5 col-xs-12">
-					<div class="single_footer">
+					<div class="single_footer">						
 						<div class="footer_contact">
 							<ul>
 								<li><i class="fa fa-rocket"></i> <span>
-										Shop No - 2 Sai Dwarka Complex,
-										Beside Dominos Near Shinde Petrol Pump,
-										Next to D-MART, Kiwale – 412101</span></li>
-
+									Shop No - 2 Sai Dwarka Complex, 
+									Beside Dominos Near Shinde Petrol Pump,
+									 Next to D-MART, Kiwale – 412101</span></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -521,7 +1560,7 @@
 					<div class="single_footer">
 						<div class="footer_contact">
 							<ul>
-								<li><i class="fa fa-phone"></i> <span>Call Us - +91 9991272678</span></li>
+								<li><i class="fa fa-phone"></i> <span>Call Us - +91 9991272678</span></li>								
 							</ul>
 						</div>
 					</div>
@@ -530,53 +1569,169 @@
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="single_footer">
 						<div class="footer_contact">
-							<ul>
+							<ul>						
 								<li><i class="fa fa-envelope"></i> <span>scanovectsales@gmail.com</span></li>
 							</ul>
 						</div>
 					</div>
 				</div><!--- END COL -->
-
+				
 			</div><!--- END ROW -->
 			<div class="row text-center">
 				<div class="col-md-12 col-sm-12 col-xs-12 wow zoomIn">
-					<p class="footer_copyright"> Copyright [2026] -All rights reserved with Scanovect| Privacy Policy
-					</p>.
+					<p class="footer_copyright"> Copyright [2026] -All rights reserved with Scanovect| Privacy Policy</p>.
 				</div><!--- END COL -->
 			</div><!--- END ROW -->
 		</div><!--- END CONTAINER -->
 	</footer>
 	<!-- END FOOTER -->
 
+	<!-- Latest jQuery -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<!-- Latest compiled and minified Bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- modernizer JS -->
+	<script src="assets/js/modernizr-2.8.3.min.js"></script>
+	<!-- stellar js -->
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<!-- Menu js -->
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<!-- owl-carousel min js  -->
+	<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+	<!-- MAGNIFICANT JS -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Slick JS -->
+	<script src="assets/js/slick.min.js"></script>
+	<!-- jquery mixitup min js -->
+	<script src="assets/js/jquery.mixitup.js"></script>
+	<!-- jquery.prettyPhoto js -->
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<!-- scrolltopcontrol js -->
+	<script src="assets/js/scrolltopcontrol.js"></script>
+	<!-- WOW - Reveal Animations When You Scroll -->
+	<script src="assets/js/wow.min.js"></script>
+	<!-- flexslider js -->
+	<script src="assets/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript">
+		jQuery("#home-slider").flexslider({
+			directionNav: false,
+			controlnav: true,
+		});
+	</script>
+	<!-- scripts js -->
+	<script src="assets/js/scripts.js"></script>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
+  <!-- Bootstrap 5 JavaScript Bundle -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        <script>
-            function filterGallery(category) {
-                const items = document.querySelectorAll('.gallery-item');
-                const buttons = document.querySelectorAll('.tab-btn');
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
-                buttons.forEach(btn => btn.classList.remove('active'));
-                event.target.classList.add('active');
+            const scanningModalElement =
+                document.getElementById("scanningModal");
 
-                items.forEach(item => {
-                    if (category === 'all' || item.classList.contains(category)) {
-                        item.style.display = 'block';
+            const contactUsBtn =
+                document.getElementById("contactUsBtn");
+
+            // Open popup and animate when clicking 3D Scanning.
+            // Bootstrap handles the open and close behavior.
+
+            // Contact Us button:
+            // Scroll to your website's contact section if it exists.
+            contactUsBtn.addEventListener("click", function () {
+
+                const contactSection =
+                    document.getElementById("contact");
+
+                if (contactSection) {
+
+                    const modalInstance =
+                        bootstrap.Modal.getInstance(
+                            scanningModalElement
+                        );
+
+                    if (modalInstance) {
+                        scanningModalElement.addEventListener(
+                            "hidden.bs.modal",
+                            function scrollToContact() {
+
+                                contactSection.scrollIntoView({
+                                    behavior: "smooth",
+                                    block: "start"
+                                });
+
+                                scanningModalElement.removeEventListener(
+                                    "hidden.bs.modal",
+                                    scrollToContact
+                                );
+                            }
+                        );
+
+                        modalInstance.hide();
+
                     } else {
-                        item.style.display = 'none';
+                        contactSection.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start"
+                        });
                     }
-                });
-            }
-        </script>
+
+                } else {
+                    // No contact section found.
+                    // Close the popup instead of navigating nowhere.
+                    const modalInstance =
+                        bootstrap.Modal.getInstance(
+                            scanningModalElement
+                        );
+
+                    if (modalInstance) {
+                        modalInstance.hide();
+                    }
+
+                    alert(
+                        "Please add a Contact section with id='contact' " +
+                        "to enable the Contact Us button."
+                    );
+                }
+
+            });
+
+        });
+    </script>
+
+	<!-- contact -->
+	
+<script>
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    // Get form values
+    const name = this.elements["name"].value.trim();
+    const email = this.elements["email"].value.trim();
+    const subject = this.elements["subject"].value.trim();
+    const message = this.elements["message"].value.trim();
+
+    // Email details
+    const recipient = "scanovectsales@gmail.com";
+    const emailSubject = encodeURIComponent(subject);
+    const emailBody = encodeURIComponent(
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n\n" +
+        "Message:\n" + message
+    );
+
+    // Open the default email application
+    const mailtoLink =
+        "mailto:" + recipient +
+        "?subject=" + emailSubject +
+        "&body=" + emailBody;
+
+    window.location.href = mailtoLink;
+});
+</script>
+
 </body>
 
 </html>
