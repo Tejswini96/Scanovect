@@ -8,28 +8,28 @@
 	<!-- SITE TITLE -->
 	<title>Scanovect</title>
 	<!-- Latest Bootstrap min CSS -->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800;900&display=swap"
 		rel="stylesheet">
 	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="fonts/font-awesome.min.css">
-	<link rel="stylesheet" href="fonts/themify-icons.css">
+	<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/themify-icons.css">
 	<!--- owl carousel Css-->
-	<link rel="stylesheet" href="owlcarousel/css/owl.carousel.css">
-	<link rel="stylesheet" href="owlcarousel/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
 	<!--fonts icons Css-->
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
 	<!--prettyPhoto css-->
-	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="assets/css/prettyPhoto.css" rel="stylesheet">
 	<!-- animate CSS -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<!-- Slick css -->
-	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/menu.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="assets/css/menu.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
 
@@ -59,7 +59,7 @@
 				<div class="col-6 col-xl-2">
 					<h1 class="mb-0 site-logo">
 						<a href="index.html">
-							<img src="img/logo-5.png" alt="">
+							<img src="assets/img/logo-5.png" alt="">
 						</a>
 					</h1>
 				</div>
@@ -108,31 +108,46 @@
 				<div class="col-lg-8 col-sm-8 col-xs-12">
 					<div class="single_contact_one">
 						<div class="contact">
-							<form id="contact-form" method="post" enctype="multipart/form-data">
-								<div class="row">
-									<div class="form-group col-md-6">
-										<input type="text" name="name" class="form-control" placeholder="Name"
-											required="required">
-									</div>
-									<div class="form-group col-md-6">
-										<input type="email" name="email" class="form-control" placeholder="Email"
-											required="required">
-									</div>
-									<div class="form-group col-md-12">
-										<input type="text" name="subject" class="form-control" placeholder="Subject"
-											required="required">
-									</div>
-									<div class="form-group col-md-12">
-										<textarea rows="6" name="message" class="form-control"
-											placeholder="Your Message" required="required"></textarea>
-									</div>
-									<div class="col-md-12 text-center">
-										<button type="submit" value="Send message" name="submit" id="submitButton"
-											class="btn btn-contact-bg" title="Submit Your Message!">Send
-											Message</button>
-									</div>
-								</div>
-							</form>
+						
+<form id="contact-form" novalidate>
+    <div class="row">
+
+        <div class="form-group col-md-6">
+            <input type="text" name="name" class="form-control"
+                   placeholder="Name" required>
+            <small class="error-message"></small>
+        </div>
+
+        <div class="form-group col-md-6">
+            <input type="email" name="email" class="form-control"
+                   placeholder="Email" required>
+            <small class="error-message"></small>
+        </div>
+
+        <div class="form-group col-md-12">
+            <input type="text" name="subject" class="form-control"
+                   placeholder="Subject" required>
+            <small class="error-message"></small>
+        </div>
+
+        <div class="form-group col-md-12">
+            <textarea rows="6" name="message" class="form-control"
+                      placeholder="Your Message" required></textarea>
+            <small class="error-message"></small>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <button type="submit" id="submitButton"
+                    class="btn btn-contact-bg">
+                Send Message
+            </button>
+
+            <p id="form-status" role="status" aria-live="polite"></p>
+        </div>
+
+    </div>
+</form>
+
 						</div>
 					</div>
 				</div><!-- END COL  -->
@@ -218,21 +233,231 @@
 	<!-- END FOOTER -->
 
 	<!-- Latest jQuery -->
-	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
 	<!-- Latest compiled and minified Bootstrap -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<!-- modernizer JS -->
-	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="assets/js/modernizr-2.8.3.min.js"></script>
 	<!-- scrolltopcontrol js -->
-	<script src="js/scrolltopcontrol.js"></script>
+	<script src="assets/js/scrolltopcontrol.js"></script>
 	<!-- Menu js -->
-	<script src="js/menu.js"></script>
-	<script src="js/jquery.sticky.js"></script>
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
 	<!-- WOW - Reveal Animations When You Scroll -->
-	<script src="js/form-contact.js"></script>
-	<script src="js/wow.min.js"></script>
+	<script src="assets/js/form-contact.js"></script>
+	<script src="assets/js/wow.min.js"></script>
 	<!-- scripts js -->
-	<script src="js/scripts.js"></script>
+	<script src="assets/js/scripts.js"></script>
+
+<!-- EmailJS library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("contact-form");
+    const button = document.getElementById("submitButton");
+    const status = document.getElementById("form-status");
+
+    if (!form || !button || !status) {
+        console.error("Contact form elements were not found.");
+        return;
+    }
+
+    /*
+      IMPORTANT:
+      Replace these 3 values with your actual EmailJS credentials.
+    */
+    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+    const SERVICE_ID = "YOUR_SERVICE_ID";
+    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
+
+    const fields = [
+        form.elements["name"],
+        form.elements["email"],
+        form.elements["subject"],
+        form.elements["message"]
+    ];
+
+    // Initialize EmailJS
+    if (
+        !window.emailjs ||
+        PUBLIC_KEY === "YOUR_PUBLIC_KEY" ||
+        SERVICE_ID === "YOUR_SERVICE_ID" ||
+        TEMPLATE_ID === "YOUR_TEMPLATE_ID"
+    ) {
+        console.error(
+            "EmailJS is not configured. Add your actual Public Key, Service ID and Template ID."
+        );
+    } else {
+        emailjs.init({
+            publicKey: PUBLIC_KEY
+        });
+    }
+
+    // Validate an individual field
+    function validateField(field) {
+
+        const error = field.parentElement.querySelector(
+            ".error-message"
+        );
+
+        const value = field.value.trim();
+        let message = "";
+
+        if (!value) {
+            message = "This field is required.";
+        } else if (
+            field.name === "email" &&
+            !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+        ) {
+            message = "Please enter a valid email address.";
+        } else if (
+            field.name === "name" &&
+            value.length < 2
+        ) {
+            message = "Name must contain at least 2 characters.";
+        }
+
+        error.textContent = message;
+
+        field.classList.toggle(
+            "is-invalid",
+            Boolean(message)
+        );
+
+        field.classList.toggle(
+            "is-valid",
+            !message
+        );
+
+        return !message;
+    }
+
+    // Clear validation while typing
+    fields.forEach(function (field) {
+        field.addEventListener("input", function () {
+
+            validateField(field);
+
+            status.textContent = "";
+        });
+    });
+
+    // Send form
+    form.addEventListener("submit", async function (event) {
+
+        event.preventDefault();
+
+        status.textContent = "";
+
+        let isValid = true;
+
+        fields.forEach(function (field) {
+            if (!validateField(field)) {
+                isValid = false;
+            }
+        });
+
+        if (!isValid) {
+            status.textContent =
+                "Please correct the highlighted fields.";
+            status.style.color = "#dc3545";
+
+            const firstInvalid = fields.find(function (field) {
+                return field.classList.contains("is-invalid");
+            });
+
+            if (firstInvalid) {
+                firstInvalid.focus();
+            }
+
+            return;
+        }
+
+        // Check EmailJS configuration
+        if (
+            !window.emailjs ||
+            PUBLIC_KEY === "YOUR_PUBLIC_KEY" ||
+            SERVICE_ID === "YOUR_SERVICE_ID" ||
+            TEMPLATE_ID === "YOUR_TEMPLATE_ID"
+        ) {
+            status.textContent =
+                "Email service is not configured. Please check EmailJS settings.";
+            status.style.color = "#dc3545";
+
+            console.error(
+                "Configure the EmailJS Public Key, Service ID and Template ID."
+            );
+
+            return;
+        }
+
+        button.disabled = true;
+        button.textContent = "Sending...";
+
+        try {
+
+            /*
+              EmailJS template should use these variables:
+              {{name}}, {{email}}, {{subject}}, {{message}}
+
+              Set the template's To Email to:
+              scanovectsales@gmail.com
+            */
+            const response = await emailjs.sendForm(
+                SERVICE_ID,
+                TEMPLATE_ID,
+                form
+            );
+
+            console.log("EmailJS response:", response);
+
+            status.textContent =
+                "Thank you! Your message has been sent successfully.";
+            status.style.color = "#198754";
+
+            // Reset only after successful sending
+            form.reset();
+
+            fields.forEach(function (field) {
+                field.classList.remove(
+                    "is-valid",
+                    "is-invalid"
+                );
+
+                const error = field.parentElement.querySelector(
+                    ".error-message"
+                );
+
+                error.textContent = "";
+            });
+
+        } catch (error) {
+
+            // Log the actual error for debugging
+            console.error("EmailJS sending failed:", error);
+
+            status.textContent =
+                "Message could not be sent. " +
+                (error && error.text
+                    ? error.text
+                    : "Please check your EmailJS settings and try again.");
+
+            status.style.color = "#dc3545";
+
+        } finally {
+
+            button.disabled = false;
+            button.textContent = "Send Message";
+        }
+    });
+
+});
+</script>
+
+
+
 </body>
 
 </html>
+
