@@ -1,4 +1,8 @@
-
+/*
+Author       : Theme_Ocean.
+Template Name: Hilux - Real Estate HTML Template 
+Version      : 1.0
+*/
 (function($) {
 	'use strict';
 	
@@ -26,6 +30,19 @@
 		  $('#myInput').focus()
 		 })
 		/*END PORTFOLIO POPUP JS*/
+
+		
+/* START PORTFOLIO POPUP JS */
+$("a[data-rel^='prettyPhoto']").prettyPhoto({
+    social_tools: false,
+    deeplinking: false
+});
+
+$('#projectModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus');
+});
+/* END PORTFOLIO POPUP JS */
+
 
 		/*START VIDEO JS*/
 		$('.video-play').magnificPopup({
